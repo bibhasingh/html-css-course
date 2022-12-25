@@ -1,19 +1,27 @@
-body {
-  border: solid 5px #000;
-  font-family: sans-serif;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-h1 {
+.item {
+  border: solid 4px #000;
+  font-family: sans-serif;
+
+  width: 825px;
+  margin: 50px auto;
+}
+
+.title {
   text-align: center;
   text-transform: uppercase;
   font-size: 24px;
   font-weight: bold;
-  background-color: #f7f7f7;
+  margin-bottom: 15px;
+  padding: 15px;
 }
 
 .price {
   font-size: 24px;
-  line-height: 2.5;
   color: #000;
 }
 
@@ -22,12 +30,20 @@ h1 {
   text-transform: uppercase;
   color: #777;
   font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .purpose {
   font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.product-detail {
+  font-size: 16px;
+  text-transform: uppercase;
   font-weight: bold;
-  line-height: 2;
+  margin-bottom: 15px;
+  margin-top: 30px;
 }
 
 .more-info:link,
@@ -41,29 +57,30 @@ h1 {
   text-decoration: none;
 }
 
-h2 {
-  font-size: 20px;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-li {
+.specification {
   font-size: 18px;
-  font-weight: bold;
-  line-height: 1.5;
+  margin-left: 20px;
   list-style: square;
+  margin-bottom: 20px;
 }
 
-button {
+.specification li {
+  margin-bottom: 10px;
+}
+
+.order {
   font-size: 24px;
   text-transform: uppercase;
   color: #fff;
   background-color: #000;
   border: none;
   cursor: pointer;
+  width: 100%;
+  padding: 15px;
+  border-top: solid 4px #000;
 }
 
-button:hover {
+.order:hover {
   color: #000;
   background-color: #fff;
 }
