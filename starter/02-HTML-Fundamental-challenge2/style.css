@@ -6,7 +6,7 @@
 .item {
   border: solid 4px #000;
   font-family: sans-serif;
-
+  position: relative;
   width: 825px;
   margin: 50px auto;
 }
@@ -50,6 +50,8 @@
 .more-info:visited {
   color: #000;
   font-size: 18px;
+  margin-bottom: 30px;
+  display: inline-block;
 }
 
 .more-info:hover,
@@ -83,4 +85,51 @@
 .order:hover {
   color: #000;
   background-color: #fff;
+}
+
+.sale {
+  background-color: rgb(255, 7, 7);
+  color: #fff;
+  display: inline-block;
+  padding: 7px 15px;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: absolute;
+  top: -20px;
+  left: -40px;
+}
+
+.box {
+  border: none;
+  display: inline-block;
+  height: 22px;
+  width: 22px;
+  margin-right: 10px;
+}
+
+.color1 {
+  background-color: #000;
+}
+
+.color2 {
+  background-color: rgb(75, 5, 251);
+}
+
+.color3 {
+  background-color: rgb(255, 3, 3);
+}
+
+.color4 {
+  background-color: rgb(236, 203, 42);
+}
+
+.color5 {
+  background-color: rgb(31, 253, 27);
+}
+
+.color6 {
+  background-color: rgb(66, 47, 1);
+  margin-right: 0;
 }
