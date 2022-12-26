@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.item {
+  border: solid 4px #000;
+  font-family: sans-serif;
+  position: relative;
+  width: 825px;
+
+  margin: 50px auto;
+}
+
+.title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  padding: 15px;
+}
+
+.shoe-image {
+  float: left;
+  width: 250px;
+  margin-right: 40px;
+}
+
+.price {
+  font-size: 24px;
+  color: #000;
+  float: left;
+}
+
+.shoe-cost {
+  float: left;
+  width: 243px;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+
+.shoe-details {
+  float: right;
+  width: 243px;
+  margin-top: 20px;
+}
+
+.delivery {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #777;
+  font-weight: bold;
+  margin-bottom: 40px;
+  float: right;
+}
+
+.purpose {
+  font-size: 18px;
+  margin-top: 8px;
+  clear: both;
+}
+
+.product-detail {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.more-info:link,
+.more-info:visited {
+  color: #000;
+  font-size: 18px;
+  margin-bottom: 30px;
+  display: inline-block;
+}
+
+.more-info:hover,
+.more-info:active {
+  text-decoration: none;
+}
+
+.specification {
+  font-size: 18px;
+  margin-left: 20px;
+  list-style: square;
+  margin-bottom: 20px;
+}
+
+.specification li {
+  margin-bottom: 10px;
+}
+
+.order {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #000;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  padding: 15px;
+  border-top: solid 4px #000;
+}
+
+.order:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+.sale {
+  background-color: rgb(255, 7, 7);
+  color: #fff;
+  display: inline-block;
+  padding: 7px 15px;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: absolute;
+  top: -20px;
+  left: -40px;
+}
+
+.box {
+  border: none;
+  display: inline-block;
+  height: 22px;
+  width: 22px;
+  margin-right: 10px;
+}
+
+.color1 {
+  background-color: #000;
+}
+
+.color2 {
+  background-color: rgb(75, 5, 251);
+}
+
+.color3 {
+  background-color: rgb(255, 3, 3);
+}
+
+.color4 {
+  background-color: rgb(236, 203, 42);
+}
+
+.color5 {
+  background-color: rgb(31, 253, 27);
+}
+
+.color6 {
+  background-color: rgb(66, 47, 1);
+  margin-right: 0;
+}
